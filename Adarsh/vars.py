@@ -10,7 +10,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '24849668'))
     API_HASH = str(getenv('API_HASH', '5034fe2d5200d2a80177db82965cc45e'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6861408977:AAFKZFWOAz0AsSPg36LXO38gp2Wd9Cr2DRc'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6861408977:AAF8dLrly1xy2Q9_d8zEq0EroaSVXzLyvJI'))
     name = str(getenv('name', 'Doffice-stream-bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
